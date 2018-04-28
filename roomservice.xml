@@ -6,9 +6,7 @@
 	   fetch="https://github.com/" /> 
   
   <!-- Repo Removes LineageOS -->
-  <!--
   <remove-project name="LineageOS/android_build" />
-  -->
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_ex" />
@@ -21,9 +19,7 @@
   <remove-project name="LineageOS/android_external_libmpeg2" />
   
   <!-- Repo Replacements LineageOS -->
-  <!-- 
   <project name="oxyojo/android_build" path="build" remote="ox" revision="cm-13.0" />
-  -->
   <project name="oxyojo/android_frameworks_base" path="frameworks/base" remote="ox" revision="cm-13.0" />
   <project name="oxyojo/android_frameworks_av" path="frameworks/av" remote="ox" revision="cm-13.0" />
   <project name="oxyojo/android_frameworks_ex" path="frameworks/ex" remote="ox" revision="cm-13.0" />
