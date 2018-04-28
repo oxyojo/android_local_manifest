@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+
+  <remote  name="ox"
+	   fetch="https://github.com/" /> 
+  
+  <!-- Repo Removes LineageOS -->
+  <!--
+  <remove-project name="LineageOS/android_build" />
+  -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_ex" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
+  <remove-project name="LineageOS/android_packages_apps_Email" />
+  <remove-project name="LineageOS/android_external_libhevc" />
+  <remove-project name="LineageOS/android_external_libavc" />
+  <remove-project name="LineageOS/android_external_aac" />
+  <remove-project name="LineageOS/android_external_libmpeg2" />
+  
+  <!-- Repo Replacements LineageOS -->
+  <!-- 
+  <project name="oxyojo/android_build" path="build" remote="ox" revision="cm-13.0" />
+  -->
+  <project name="oxyojo/android_frameworks_base" path="frameworks/base" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_frameworks_av" path="frameworks/av" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_frameworks_ex" path="frameworks/ex" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_system_bt" path="system/bt" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_packages_apps_Email" path="packages/apps/Email" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_external_libhevc" path="external/libhevc" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_external_libavc" path="external/libavc" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_external_aac" path="external/aac" remote="ox" revision="cm-13.0" />
+  <project name="oxyojo/android_external_libmpeg2" path="external/libmpeg2" remote="ox" revision="cm-13.0" />
+
+  <project name="LineageOS/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" />
+  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" />
+  <project name="LineageOS/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+</manifest>
